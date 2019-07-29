@@ -1,0 +1,289 @@
+@font-face{
+	font-family: Pacifico;
+	font-weight: bold;
+	src:url(fuente/Pacifico-Regular.ttf);
+}
+p{
+	font-family: Pacifico;
+}
+h1{
+	font-family: Pacifico;
+}
+h2{
+	font-family: Pacifico;
+	
+
+}
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+body{
+
+	background-color: rgb(138,138,226);
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+
+
+	
+}
+
+h2{
+text-align: center;
+}
+section{
+	width: 80%;	
+	margin: auto;
+	margin-top: 0;
+	align-self: center;
+	margin-left: 0em;
+	margin-right: 0em;
+}
+
+section>article{
+	margin-top: 1em;
+	border-radius: 3px;
+	border-style: solid;
+	padding: 2em;
+	align-self: center;
+	background-color: #FFA07A;
+	box-shadow: 1px 5px 5px #000;
+	width: 100%;
+	height: 120%;
+	margin-left: -2.5em;
+}
+
+section>article[class="info"]{
+	width: 100%;
+	height: auto;
+
+
+	
+}
+
+
+
+article>div[class="juego2"]{	
+
+		
+		display: flex;
+		flex-direction: column;
+		margin-top: 0;
+
+}
+#mano{
+	position: absolute;
+		z-index: 100;
+}
+#monedas{
+	text-align: center;
+	margin: 1em;	
+	border-style: solid;
+	border-radius: 10px;
+	background-color: #f8adc5;
+		
+}
+#objyhuc{
+	flex-direction: row;
+	margin: 1em;
+	display: flex;
+
+	
+}
+#objeto{
+	text-align: center;
+	margin: 1em;	
+	border-style: solid;
+	width: 100%;	
+	border-radius: 10px;
+	background-color: #f8adc5;	
+}
+#objeto>img{
+	margin-top: 3em;
+}
+
+#moneda1{
+
+	
+	width: 90px;
+    height: 90px; 
+
+
+}
+#moneda2{
+	margin-left:  4em;
+	margin-right:   4em;
+	width: 100px;
+    height: 100px; 
+
+
+
+}
+#moneda5{
+	width: 125px;
+    height: 125px; 
+ 
+
+}
+#camion{
+	width: 200px;
+    height: 200px;  
+   
+}
+#etiqueta{
+	
+    width: 80px;
+    height: 80px;   
+  
+}
+#huchaimg{
+	 width: 200px;
+    height: 200px;  
+
+}
+#hucha{
+	width: 100%;
+    margin: 1em;
+	background-size: 100% 100%;
+		border-style: solid;  
+		text-align: center;
+		border-radius: 10px;
+		background-color: #f8adc5;
+   
+}
+#contenido{
+	background: white;
+border-style: solid;  
+height: 50px;
+margin:0.5em;
+border-radius: 7px;
+
+}
+
+#bosi{
+
+padding: 1em;
+margin-right:   10em;
+margin-left:    10em;
+margin-bottom:   1em;
+
+background-color: white;
+border-style: solid;  
+border-radius: 100px;
+
+
+
+}
+#siguiente>h3{
+
+
+	color: green;
+}
+
+
+
+
+#info{
+	text-align: center;
+}
+#info:hover{
+	cursor: pointer;
+	color: gray;
+}
+.choose{
+
+background: white;
+border: solid 1px gray;
+	 
+}
+.gray{
+	color: gray;
+}
+
+.black{
+	color:black;
+}
+
+.choose:hover{
+
+cursor:pointer;
+	 
+}
+
+ul li:hover{
+	background: #D58854;
+}
+
+.chosen-results,.chosen-resultsi{
+	background:  #FFA05F;
+	text-decoration: none;
+	padding-left: 0px;
+	margin-top: 10px;
+ 	height:15em;
+    overflow:scroll;
+    overflow-x:hidden;
+
+}
+
+.chosen-group,.chosen-groupi{
+	background-color: #FFA05F;
+	position: absolute;
+	border: solid 1px gray;
+
+}
+
+.chosen-results,.chosen-resultsi li{
+
+	background: #FFA05F;
+	list-style: none;
+	
+}
+
+.chosen-elegida,.chosen-elegidai{
+	background: white;
+}
+
+.linea{
+	margin-top: .5em;
+	border-bottom: dotted .13em;
+	margin-bottom: .8em;
+}
+
+.hidden{
+	display: none;
+}
+
+.right{
+	float: right;
+}
+
+.col10{
+	width: 100%;
+}
+.col5{
+	width: 50%;
+}
+
+#moneda1:hover{
+
+	cursor:pointer;
+
+}
+#moneda2:hover{
+ 
+
+cursor:pointer;
+
+}
+#moneda5:hover{
+	
+cursor:pointer;
+}
+#bosi:hover{
+	cursor:pointer;
+}
+
+
